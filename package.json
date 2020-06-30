@@ -1,0 +1,23 @@
+{
+  "name": "rc-branch-action",
+  "version": "0.0.1",
+  "description": "A GitHub Action for release candidate branch automation",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KazooHR/rc-branch-action"
+  },
+  "author": "Jeff Israel <jeff.israel@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "ncc build src/index.js",
+    "run-action": "node dist/index.js"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@octokit/graphql": "^4.5.1"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3"
+  }
+}

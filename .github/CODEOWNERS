@@ -1,0 +1,6 @@
+# https://help.github.com/en/articles/about-code-owners
+
+* @KazooHR/web-codeowners
+*.scss @KazooHR/front-end-codeowners
+k8s/ @KazooHR/infrastructure-codeowners
+k8s/configmaps @KazooHR/web-codeowners
