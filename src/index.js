@@ -88,7 +88,7 @@ getBranchRefs(token, owner, repoName, branchName)
   .then((data) => {
     const newTag = data.createRef.ref.name;
     const newRefId = data.createRef.ref.id;
-    core.setOutput(`Tag created: ${newTag} with ref id ${newRefId}`);
+    core.setOutput(`Tag ${newTag} created with ref id ${newRefId}.`);
   })
   .catch((errorMessage) => {
     core.setFailed(errorMessage);
