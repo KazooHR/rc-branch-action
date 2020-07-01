@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name:
-        id: clean-up-old-package-versions
+        id: run-rc-branch-action
         uses: kazoohr/rc-branch-action@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
