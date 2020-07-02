@@ -1,0 +1,9 @@
+name: Release Candidate Branch Automation
+description: Automatic tagging of release branches to facilitate continuous deployment
+author: KazooHR
+branding:
+  icon: tag
+  color: green
+runs:
+  using: "node12"
+  main: "dist/index.js"
