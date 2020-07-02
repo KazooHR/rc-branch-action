@@ -10,7 +10,7 @@ At Kazoo, we follow the pattern of naming release candidate branches with the pr
 
 If no prior tag exists, the action will create a tag with the `-001` suffix. Subsequent tags will increment the build number by querying the repository for prior tags.
 
-Below is a sample workflow that would achieve what is described while the repository containing the action is public. Each time a push is made to a branch matching the Kazoo pattern above, the action will create and push a new tag.
+Below is a sample workflow that would achieve what is described while the repository containing the action is private. Each time a push is made to a branch matching the Kazoo pattern above, the action will create and push a new tag.
 
 ```yaml
 name: Release candidate branch maintenance
