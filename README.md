@@ -6,7 +6,7 @@ A GitHub Action to facilitate continuous integration of release candidates for w
 
 Given a branch (or branches), this action will create a tag with the branch name and an incrementing build number suffix.
 
-At Kazoo, we follow the pattern of naming release candidate branches with the prefix `RC-` followed by the date in `YYYY-MM-DD` format. For example: `RC-2018-82-27`.
+At Kazoo, we follow the pattern of naming release candidate branches with the prefix `RC-` followed by the date in `YYYY-MM-DD` format. For example: `RC-2018-08-27`.
 
 If no prior tag exists, the action will create a tag with the `-001` suffix. Subsequent tags will increment the build number by querying the repository for prior tags.
 
