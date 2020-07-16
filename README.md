@@ -74,7 +74,7 @@ See also the list of [contributors](https://github.com/kazoohr/rc-branch-action/
 
 Copyright 2020 Kazoo
 
-Licensed under the [MIT License](LICENSE) (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at [https://mit-license.org/]()
+Licensed under the [MIT License](LICENSE) (the "License").
 
 ## Acknowledgements
 
