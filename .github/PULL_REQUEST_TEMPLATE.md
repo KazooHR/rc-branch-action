@@ -2,8 +2,6 @@
 
 Describe the problem the pull request is solving. In many cases, this may be a restatement of the ticket, perhaps with additional technical context. This description can be used as the commit message of the merged/squashed commit so it lives in the history.
 
-<!-- ## PR Checklist -->
-
 ### How can someone test these changes?
 
 Put yourself in the shoes of another engineer and guide them through how they would test and verify these changes if they pulled down this branch.
