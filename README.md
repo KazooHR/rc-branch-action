@@ -85,6 +85,26 @@ jobs:
             RC-${{ steps.todays-date.outputs.date }}
 ```
 
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at [https://github.com/kazoohr/rc-branch-action](). Please read [CONTRIBUTING.md]() and [CAL.md]() for details on our code of conduct and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags](https://github.com/kazoohr/rc-branch-action/tags) on this repository.
+
+## Authors
+
+- [Jeff Israel](https://github.com/stripethree) - Kazoo
+
+See also the list of [contributors](https://github.com/kazoohr/rc-branch-action/graphs/contributors) who participated in this project.
+
 ## License
 
-The scripts and documentation in this project are released under the [MIT License](LICENSE)
+Copyright 2020 Kazoo
+
+Licensed under the [MIT License](LICENSE) (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at [https://mit-license.org/]()
+
+## Acknowledgements
+
+This project is maintained by the Engineering team at [Kazoo](http://kazoohr.com) headquartered in Austin, TX.
