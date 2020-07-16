@@ -2,9 +2,9 @@
 
 Thanks for being interested in our project! We welcome [all kinds of contributions](https://opensource.guide/how-to-contribute/). There are a few things you should know before contributing to this repository:
 
-1. All contributors must agree to our [Contributor License Agreement](CLA.md) before any merge requests will be accepted.
-2. Please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
-3. Please note we have a code of conduct, please follow it in all your interactions with the project.
+1. We have a code of conduct defined below, please follow it in all your interactions with the project.
+2. Please discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+3. All contributors must agree to our [Contributor License Agreement](CLA.md). Agreement to the CLA and the Code of Conduct are implied by a PR author when a PR is opened (includes _Draft_ PRs).
 
 ## Pull Request Process
 
