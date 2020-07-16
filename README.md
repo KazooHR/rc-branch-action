@@ -58,7 +58,7 @@ jobs:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [https://github.com/kazoohr/rc-branch-action](). Please read [CONTRIBUTING.md]() and [CAL.md]() for details on our code of conduct and the process for submitting pull requests to us.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/kazoohr/rc-branch-action](). Please read [CONTRIBUTING.md]() and [CLA.md]() for details on our code of conduct and the process for submitting pull requests to us.
 
 ## Versioning
 
