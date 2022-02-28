@@ -2313,7 +2313,7 @@ isStream.transform = function (stream) {
 /***/ (function(__unusedmodule, exports) {
 
 CREATE_TAG_MUTATION = `
-  mutation($clientId: String!, $refName: String!, $commitOid: String!, $repositoryId: String! ) {
+  mutation($clientId: String!, $refName: String!, $commitOid: GitObjectID!, $repositoryId: String! ) {
     createRef( input:{ clientMutationId: $clientId, name: $refName, oid: $commitOid, repositoryId: $repositoryId } ) {
       clientMutationId
       ref {
@@ -5434,7 +5434,7 @@ getBranchRefs(token, owner, repoName, branchName)
   .then((data) => {
     const newTag = data.createRef.ref.name;
     const newRefId = data.createRef.ref.id;
-    core.setOutput(`Tag created: ${newTag} with ref id ${newRefId}`);
+    core.setOutput(`Tag ${newTag} created with ref id ${newRefId}.`);
   })
   .catch((errorMessage) => {
     core.setFailed(errorMessage);
