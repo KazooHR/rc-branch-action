@@ -1,5 +1,5 @@
 CREATE_TAG_MUTATION = `
-  mutation($clientId: String!, $refName: String!, $commitOid: String!, $repositoryId: String! ) {
+  mutation($clientId: String!, $refName: String!, $commitOid: GitObjectID!, $repositoryId: String! ) {
     createRef( input:{ clientMutationId: $clientId, name: $refName, oid: $commitOid, repositoryId: $repositoryId } ) {
       clientMutationId
       ref {
